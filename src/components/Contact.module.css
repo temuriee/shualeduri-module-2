@@ -1,0 +1,36 @@
+.container {
+  background-image: url("./astronaut.png");
+  width: 516px;
+  height: 536px;
+  object-fit: contain;
+  margin-left: 70px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.eclipse {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  object-fit: contain;
+  top: 100px;
+  left: 300px;
+}
+.test {
+  margin-top: 41px;
+  position: relative;
+}
+.secondEclipse {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 400px;
+  right: 300px;
+  object-fit: contain;
+}
+.thirdEclipse {
+}
+.test form {
+  position: relative;
+  z-index: 10;
+}
