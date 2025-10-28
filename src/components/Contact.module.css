@@ -16,21 +16,26 @@
   top: 100px;
   left: 300px;
 }
-.test {
+.mainContainer {
+  height: 0;
   margin-top: 41px;
   position: relative;
 }
 .secondEclipse {
-  width: 400px;
-  height: 400px;
   position: absolute;
-  top: 400px;
-  right: 300px;
+  top: 100%;
+  right: 400px;
   object-fit: contain;
+  z-index: 0;
 }
 .thirdEclipse {
+  bottom: 100px;
+  right: 350px;
+  position: absolute;
+  object-fit: contain;
+  z-index: 0;
 }
-.test form {
-  position: relative;
+form {
+  position: absolute;
   z-index: 10;
 }
