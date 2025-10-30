@@ -15,4 +15,5 @@ export const onSubmit = async (data) => {
     .catch((err) => {
       console.log(err);
     });
+  return response.json();
 };

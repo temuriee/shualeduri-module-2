@@ -3,6 +3,7 @@ import styles from "./Contact.module.css";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { onSubmit } from "../api/api";
+import { QueryClient, useMutation, useQuery } from "@tanstack/react-query";
 
 const schema = z.object({
   firstName: z
@@ -22,7 +23,6 @@ const Contact = () => {
   const {
     register,
     handleSubmit,
-    reset,
     formState: { errors, isSubmitting },
   } = useForm({
     resolver: zodResolver(schema),
