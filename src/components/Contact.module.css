@@ -1,5 +1,5 @@
 .container {
-  background-image: url("./astronaut.png");
+  background-image: url("/astronaut.png");
   width: 516px;
   height: 536px;
   object-fit: contain;

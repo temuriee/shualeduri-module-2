@@ -48,8 +48,8 @@ const Contact = () => {
           </p>
         </div>
         <div className={styles.mainContainer}>
-          <img src="./eclipse.svg" alt="" className={styles.secondEclipse} />
-          <img src="./eclipse.svg" alt="" className={styles.thirdEclipse} />
+          <img src="/eclipse.svg" alt="" className={styles.secondEclipse} />
+          <img src="/eclipse.svg" alt="" className={styles.thirdEclipse} />
           <form
             onClick={handleSubmit(onSubmit)}
             action=""
@@ -117,7 +117,7 @@ const Contact = () => {
               disabled={isSubmitting}
             >
               {isSubmitting ? "Submitting..." : "Send It To Moon"}{" "}
-              <img src="./rocket.svg" alt="rocket logo" />
+              <img src="/rocket.svg" alt="rocket logo" />
             </button>
           </form>
         </div>
@@ -129,7 +129,7 @@ const Contact = () => {
             silence, transforming my view of our place in the universe.
           </p>
           <h2 className="text-[#FFFFFFA6]">Irinel Traista</h2>
-          <img src="./eclipse.svg" alt="" className={styles.eclipse} />
+          <img src="/eclipse.svg" alt="" className={styles.eclipse} />
         </div>
       </div>
     </div>
